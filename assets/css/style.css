@@ -1,5 +1,5 @@
 body {
-    /* background-color: #666666; */
+    background-image: url(../images/concrete_seamless.png);
 }
 
 .header {
@@ -7,11 +7,15 @@ body {
     height: 70px;
     /* display: inline-block; */
     border-bottom: 1px solid gray;
+    background-color: #fff;
 }
 
-.header-content{
+.header-content {
     width: 960px;
     margin: 0 auto;
+
+
+    height: 100%;
 }
 
 
@@ -23,26 +27,120 @@ body {
     text-align: center;
     color: white;
     font-size: 34px;
-    display: inline;
     padding-top: 20px;
     float: left;
 }
 
-.header .header-content .nav{
+.header .header-content .nav {
     float: right;
     margin-top: 20px;
     font-size: 20px;
-    
+
 }
 
-.header .header-content .nav a{
+.main-content {
+    width: 960px;
+    margin: 40px auto;
+
+}
+
+.header .header-content .nav a {
     padding-right: 10px;
     color: gray;
     text-decoration: none;
-    border-right: 1px solid grey ;
+    border-right: 1px solid grey;
+    cursor: pointer;
 }
-.header .header-content .nav a:last-child{
-    border:0;
+
+.header .header-content .nav a:last-child {
+    border: 0;
 
 }
+
+.left-side {
+
+    width: 70%;
+    background-color: #fff;
+    border: 1px solid grey;
+    padding: 30px;
+    float: left;
+    margin-bottom: 50px;
+}
+
+
+.left-side h2 {
+    font-size: 30px;
+    color: #4aaaa5;
+    border-bottom: 3px rgb(128, 128, 128) solid;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.left-side p {
+    color: black;
+    font-size: 18px;
+}
+
+.left-side img {
+    float: left;
+    margin-right: 10px;
+    width: 200px;
+}
+
+
+
+.right-side {
+    width: 269px;
+    background-color: white;
+    float: right;
+    border: 1px solid grey;
+    padding: 30px;
+    text-align: center;
+    color: #4aaaa5;
+    font-size: 22px;
+
+}
+
+.h2 {
+    border-bottom: gray solid 1px;
+    padding-bottom: 20px;
+    margin: o 5px;
+}
+
+.rigth-img {
+    padding-top: 10px;
+
+}
+
+.footer {
+    padding: 30px;
+    text-align: center;
+    background-color: gray;
+    clear: both;
+    
+
+}
+
+.images img{
+    width: 280px;
+    padding-top: 10px;
+}
+
+.images img:nth-child(odd){
+    margin:0 40px 40px 0;
+}
+
+.button{
+    background-color: #00a8eb;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    
+}
+.contact , .contact2 , .contact3 {
+   width: 100%;
+}
+
 

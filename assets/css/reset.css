@@ -47,6 +47,7 @@ table {
 	border-spacing: 0;
 }
 
-.h1{
+.h1, .header, .left-side, .header-content, .right-side, .divimg {
 	box-sizing: border-box;
+
 }
